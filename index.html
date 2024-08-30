@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Maverick</title>
+</head>
+
+<body>
+
+    <div class="logo-wrapper">
+        <img id="Home" class="logo" src="MaverickLogo.jpg" />
+    </div>
+
+    <header class="navbar-large">
+        <a class="navbar-large-link" href="#Home">Home</a>
+        <a class="navbar-large-link" href="#About">About</a>
+        <a class="navbar-large-link" href="#Media Gallery">Media Gallery</a>
+        <a class="navbar-large-link" href="#Performance Package">Performance Package</a>
+        <!-- <a class="navbar-large-link" href="#Testimonials">Testimonials</a> -->
+        <a class="navbar-large-link" href="#ContactUs">Contact Us</a>
+    </header>
+
+    <header id="SmallHeader" class="navbar-small">
+        <div class="navbar-small-header">
+            <h1>Maverick</h1>
+            <i id="menu-button" onclick="toggleMenuOptions()" class="navbar-small-menu" data-lucide="menu"></i>
+        </div>
+        <div id="menu-options" class="navbar-small-menu-options" style="display: none;">
+            <a class="navbar-small-link" href="#Home">Home</a>
+            <a class="navbar-small-link" href="#About">About</a>
+            <a class="navbar-small-link" href="#Media Gallery">Media Gallery</a>
+            <a class="navbar-small-link" href="#Performance Package">Performance Package</a>
+            <!-- <a class="navbar-small-link" href="#Testimonials">Testimonials</a> -->
+            <a class="navbar-small-link" href="#ContactUs">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="tile">
+            <h1>About</h1>
+            <p id="About">
+                Maverick, the ultimate 80s and 90s function band, is guaranteed to get you dancing! Featuring guitar,
+                keys, keytar, bass, drums, and dynamic vocals, our talented lineup delivers electrifying performances
+                for any event. Specializing in the best hits from the 80s and 90s, Maverick brings an energetic and
+                nostalgic vibe that will keep your guests entertained and the dance floor packed all night long. <br>
+
+                With years of experience and a passion for live music, each member of Maverick brings their unique flair
+                and expertise to the stage. From classic rock anthems to pop hits and everything in between, our diverse
+                setlist ensures there's something for everyone. Whether you're hosting a wedding, corporate event,
+                birthday party, or any celebration, Maverick creates an unforgettable atmosphere that will make your
+                event a night to remember.Let Maverick turn your event into a high-energy, memorable experience with the
+                best music from the 80s and 90s!
+            </p>
+            <img class="about-image" src="Header.png" />
+        </div>
+
+        <div class="tile">
+            <h1>Media Gallery</h1>
+            <div id="Media Gallery">
+                <div></div>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/_UQQWD6G9mw?si=ATUNGawBIjLDtMQS&amp;start=2"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <img class="collage-thing"
+                    src="C:\Users\Gwen Merry\OneDrive\Documents\Maverick\photo-collage.png.png" />
+            </div>
+
+        </div>
+        </div>
+
+        </div>
+
+        <div class="tile">
+            <h1>Performance Package</h1>
+            <p id="Performance Package">
+            <ul>
+                <li> 100% live, no backing tracks </li>
+                <li>Choice of Set times</li>
+                <li> Full sound system and lighting </li>
+                <li> Insurance</li>
+                <li>First dance requests</li>
+                <li> Music between sets </li>
+            </ul>
+
+            </p>
+        </div>
+
+
+        <div class="tile">
+            <!-- <h1>Testimonials</h1>
+            <p id="Testimonials">
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus, ipsum quis varius
+                venenatis, lacus nisi pretium neque, eu consectetur tortor lorem vel ex. Maecenas
+                gravida eros nec tellus auct pulvinar. Donec sit amet dolor eget magna porttitor
+                gravida
+                ac nec quam. Nullam lobortis tellus eros. Vestibulum volutpat finibus sagittis. Nunc
+                vitae leo erat. Curabitur porttitor magna nisl, sit amet iaculis mauris cursus ut.
+                Curabitur sit amet ultrices quam. Donec nibh odio, auctor sit amet orci vitae,
+                suscipit
+                laoreet ipsum. Nunc eget lectus purus. Integer tempus ut eros consequat ullamcorper.
+                Morbi massa nunc, iaculis a lobortis nec, fermentum vel nisi. Sed quis commodo
+                justo, et
+                accumsan dui. Integer accumsan, turpis et sodales tristique, sem leo maximus lectus,
+                sit
+                amet pellentesque ante nisl bibendum urna. Sed sed feugiat velit. Nunc erat massa,
+                posuere et sagittis et, sollicitudin at neque.
+            </p>
+            <!-->
+        </div>
+
+        <div class="contact-row">
+            <div class="contact-column">
+                <h1>Contact Us</h1>
+                <p id="ContactUs"></p>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="46edf6c2-adfc-44da-bec8-a892820883fe">
+
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <div class="input-field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="message">Message</label>
+                        <textarea name="message" required></textarea>
+                    </div>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </div>
+            <div class="contact-column">
+                <h1>Our Socials</h1>
+
+                <ul class="social-links-list">
+                    <li>
+                        <a class="social-link"
+                            href="https://www.facebook.com/p/Maverick-Functions-Band-100088369671096/">
+                            <i data-lucide="facebook"></i>
+                            facebook</a>
+                    </li>
+                    <li>
+                        <a class="social-link" href="https://www.instagram.com/maverickfunctionsband/"> <i
+                                data-lucide="instagram"></i> instagram</a>
+                    </li>
+                    <li>
+                        <a class="social-link" href="https://www.youtube.com/@Maverickfunctionsband/videos"><i
+                                data-lucide="youtube"></i> Youtube</a>
+                    </li>
+                    <li>
+                        <a class="social-link" href="mailto: maverickfunctionsband@gmail.com"><i data-lucide="mail"></i>
+                            maverickfunctionsband@gmail.com </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <a href="#SmallHeader">
+            <div class="footer-small">
+                <i class="up-button" data-lucide="chevron-up"></i>
+            </div>
+        </a>
+    </footer>
+
+    <footer>
+        <div class="navbar-large">
+            <a class="navbar-large-link" href="#Home">Home</a>
+            <a class="navbar-large-link" href="#About">About</a>
+            <a class="navbar-large-link" href="#Media Gallery">Media Gallery</a>
+            <a class="navbar-large-link" href="#Performance Package">Performance Package</a>
+            <!--  <a class="navbar-large-link" href="#Testimonials">Testimonials</a> -->
+            <a class="navbar-large-link" href="#ContactUs">Contact Us</a>
+        </div>
+        <p class="made-by">Website made by Gwen Merry © 2024</p>
+    </footer>
+</body>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+
+    const menuOptionsElement = document.getElementById("menu-options");
+
+    function toggleMenuOptions() {
+        if (menuOptionsElement.style.display === "none") {
+            menuOptionsElement.style.display = "flex"
+        } else {
+            menuOptionsElement.style.display = "none"
+        }
+    }
+
+    window.addEventListener('click', (event) => {
+        if (event.target.id !== "menu-button") {
+            menuOptionsElement.style.display = "none"
+        }
+    })
+</script>
+
+</html>
