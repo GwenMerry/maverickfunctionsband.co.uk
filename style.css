@@ -338,13 +338,15 @@ body {
   }
 }
 
-.collage-thing {
-  height: 550px;
-  width: 600px;
-  position: relative;
+.media {
   display: flex;
-  left: 50%;
-  top: -250px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.collage-thing {
+  max-height: 315px;
 }
 
 .stage {
