@@ -1,5 +1,26 @@
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   /* Styles for tablets and small desktops */
+  .about-image {
+    display: none;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+  p {
+    margin: 0;
+  }
+  .collage-thing {
+    display: none;
+  }
+  .navbar-small {
+    padding-top: 0;
+  }
+  .social-link {
+    font-size: 18px;
+    gap: 8px !important;
+  }
+
   .navbar-large {
     display: none !important;
   }
@@ -7,12 +28,29 @@
   .logo-wrapper {
     display: none !important;
   }
+
+  .input-field {
+    font-size: 18px;
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 100% !important;
+  }
+
+  input {
+    width: 100% !important;
+  }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1081px) {
   /* Styles for larger devices */
   .navbar-small {
     display: none !important;
+  }
+
+  .collage-thing-small {
+    display: none;
   }
 
   .footer-small {
@@ -303,7 +341,6 @@ h2 {
 
 .contact-column {
   flex-grow: 1;
-  min-width: 400px;
 }
 
 img,
