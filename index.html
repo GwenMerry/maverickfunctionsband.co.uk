@@ -129,26 +129,20 @@
                 <form action="https://api.web3forms.com/submit" method="POST">
 
                     <!-- Replace with your Access Key -->
-                    <input type="hidden" name="access_key" value="46edf6c2-adfc-44da-bec8-a892820883fe">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
 
                     <!-- Form Inputs. Each input must have a name="" attribute -->
-                    <div class="input-field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" required>
-                    </div>
-                    <div class="input-field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <div class="input-field">
-                        <label for="message">Message</label>
-                        <textarea name="message" required></textarea>
-                    </div>
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <textarea name="message" required></textarea>
 
                     <!-- Honeypot Spam Protection -->
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-                    <button type="submit">Send Message</button>
+                    <!-- Custom Confirmation / Success Page -->
+                    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+                    <button type="submit">Submit Form</button>
 
                 </form>
             </div>
